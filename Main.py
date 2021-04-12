@@ -87,6 +87,7 @@ copylist=[]
 k = PyKeyboard()
 m = PyMouse()
 
-print('start')
+print('ctrl+c复制')
+print('大写锁定键粘贴')
 with keyboard.Listener(on_press=onpressed) as listener:
     listener.join()
